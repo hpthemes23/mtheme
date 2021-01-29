@@ -1,0 +1,1093 @@
+/*
+Theme Name:     MTHEME
+Version:        1.0
+Description:    Custom CSS
+*/
+/* 
+	All custom ids and classes used for the theme, starts with "mtheme".
+	For demo 1 to demo 6, it uses "mtheme".
+	For demo 4, it uses "mthemeD4". 
+	For demo 5, it uses "mthemeD5".
+	For index page, it uses "mthemeIndex".
+	For documentation page, it uses "mthemeDoc".
+*/
+/* TABLE OF CONTENTS
+	1. body
+		1.1 for demo 1 to demo 6
+			1.1.1 #mtheme-body
+	2. headlines
+		2.1 for demo 1 to demo 6
+			2.1.1  h1, h2, h3, h4, h5, h6
+	3. header
+		3.1 for demo 1 to demo 6
+			3.1.1 .mtheme-header-1
+			3.1.2 .mtheme-header-2
+			3.1.3 .mtheme-header-3
+			3.1.4 .mtheme-header-4
+	4. about
+		4.1 for demo 1 to demo 6
+			4.1.1 .mtheme-about-1
+	5. services
+		5.1 for demo 1 to demo 6
+			5.1.1 .mtheme-services-1
+			5.1.2 .mtheme-services-2
+	6. locations
+		6.1 for demo 1 to demo 6
+			6.1.1 .mtheme-locations-1
+			6.1.2 .mtheme-locations-2
+			6.1.3 .mtheme-locations-3
+			6.1.4 .mtheme-locations-4
+	7. pricing
+		7.1 for demo 1 to demo 6
+			7.1.1 .mtheme-pricing-1
+			7.1.2 .mtheme-pricing-2
+			7.1.3 .mtheme-pricing-3
+			7.1.4 .mtheme-pricing-4
+	8. reviews
+		8.1 for demo 1 to demo 6
+			8.1.1 .mtheme-reviews-1
+			8.1.2 .mtheme-reviews-2
+			8.1.3 .mtheme-reviews-3
+			8.1.4 .mtheme-reviews-4
+			8.1.5 .mtheme-reviews-5
+			8.1.6 .mtheme-reviews-6
+	9. contact
+		9.1 for demo 1 to demo 6
+			9.1.1 .mtheme-contact-1
+			9.1.2 .mtheme-contact-2
+			9.1.3 .mtheme-contact-3
+			9.1.4 .mtheme-contact-4
+			9.1.5 .mtheme-contact-5
+			9.1.6 .mtheme-contact-6
+	10. footer
+		10.1 for demo 1 to demo 6
+			10.1.1 .mtheme-pre-footer-1
+			10.1.2 .mtheme-footer-1
+	11. height of all elements
+		11.1 *
+	12. image width
+		12.1 img[src*=".svg"]
+		12.2 mtheme-image-1
+		12.3 mtheme-image-2
+		12.4 mtheme-image-3
+	13. card-columns
+		13.1 for demo 1 to demo 6
+			13.1.1 .mtheme-card-columns-1
+			13.1.2 .mtheme-card-columns-2
+			13.1.3 .mtheme-card-columns-3
+	14. input
+		14.1 for demo 1 to demo 6
+			14.1.1 .mtheme-field input
+	15. textarea
+		15.1 for demo 1 to demo 6
+			15.1.1 .mtheme-field textarea
+	16. navigation
+		16.1 for demo 1 to demo 6
+			16.1.1 #mtheme-navbar
+			16.1.2 .mtheme-navbar.solid
+			16.1.3 .mtheme-nav-link
+			16.1.4 .navbar-toggler
+		16.2 for documentation
+			16.2.1 #mthemeDoc-navbar
+			16.2.2 .mthemeDoc-nav-pills
+			16.2.3 .mthemeDoc-nav-link
+	17. button
+		17.1 for demo 1 to demo 6
+			17.1.1 .mtheme-button-1
+			17.1.2 .mtheme-button-2
+	18. typed
+		18.1 for demo 4
+			18.1.1 #mthemeD4-typed
+			18.1.1 .mthemeD4-typed-1
+	19. videos
+		19.1 for demo 5
+			19.1.1 .mthemeD5-video-1
+	20. index
+		20.1 for index
+			20.1.1 .mthemeIndex-1
+			20.1.2 .mthemeIndex-2
+			20.1.3 .mthemeIndex-3
+			20.1.4 .mthemeIndex-4
+	21. documentation
+		21.1 for documentation
+			21.1.1 .mthemeDoc-color-1
+			21.1.2 .mthemeDoc-color-2
+			21.1.3 .mthemeDoc-scroll
+END OF TABLE OF CONTENTS */
+/* CUSTOM CSS */
+/* BODY */
+#mtheme-body{
+	background-color: #FFFFFF;
+	color: #131636;
+	height: 100vh;
+	font-family: 'Varela Round', sans-serif;
+}
+/* END OF BODY */
+/* HEADLINES */
+#mtheme-body h1, h2, h3, h4, h5, h6{
+	font-family: 'Fredoka One', cursive;
+	line-height: normal;
+}
+#mtheme-body h2 span{
+	display: block;
+}
+/* END OF HEADLINES */
+/* HEADER */
+.mtheme-header-1{
+	padding-bottom: 90px;
+}
+.mtheme-header-2{
+	position: relative;
+	background-color: #131636;
+	color: #FFFFFF;
+	height: 100vh;
+    background-image: url("../images/home.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.mtheme-header-3{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100vh;
+    background-image: url("../images/home.svg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.mtheme-header-4{
+	color: #9EEFE5;
+}
+/* END OF HEADER */
+/* ABOUT */
+.mtheme-about-1{
+	padding: 0;
+}
+/* END OF ABOUT */
+/* SERVICES */
+.mtheme-services-2{
+	border: 0;
+}
+/* END OF SERVICES */
+/* LOCATIONS */
+.mtheme-locations-1{
+	border: 0;
+}
+.mtheme-locations-2{
+	position: relative;
+}
+.mtheme-locations-2:hover .mtheme-locations-3{
+    opacity: 1;
+}
+.mtheme-locations-3{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	background: -webkit-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -moz-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -ms-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -o-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: linear-gradient(to right, #131636, #151232, #0D0E18);
+	transition-property: all;
+	transition-duration: 2s;
+	transition-timing-function: ease;
+	transition-delay: 0.3s;
+	border-radius: 0;
+}
+.mtheme-locations-4{
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+/* END OF LOCATIONS */
+/* PRICING */
+.mtheme-pricing-1{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.mtheme-pricing-2{
+	background-color: #FFFFFF;
+	color: #131636;
+	border-radius: 0;
+	border: 0;
+}
+/* END OF PRICING */
+/* REVIEWS */
+.mtheme-reviews-4{
+	font-style: italic;
+}
+.mtheme-reviews-5{
+	font-weight: 550;
+	font-size: 21px;
+}
+.mtheme-reviews-6{
+	background-color: #131636;
+	color: #FFFFFF;
+}
+/* END OF REVIEWS */
+/* CONTACT */
+.mtheme-contact-1{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.mtheme-contact-4{
+	padding: 0;
+}
+.mtheme-contact-6{
+	color: #131636;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.3s;
+}
+.mtheme-contact-6:hover{
+	color: #086D65;
+}
+/* END OF CONTACT */
+/* FOOTER */
+.mtheme-pre-footer-1{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.mtheme-footer-1{
+	background: -webkit-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -moz-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -ms-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -o-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: linear-gradient(to right, #131636, #151232, #0D0E18);
+	color: #FFFFFF;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	transition-delay: 0.5s;
+}
+/* END OF FOOTER */
+/* HEIGHT OF ALL ELEMENTS */
+*{
+    min-height: 0.01px;
+}
+/* END OF HEIGHT OF ALL ELEMENTS */
+/* IMAGE WIDTH */
+img[src*=".svg"] {
+	width: 100%;
+}
+/* END OF IMAGE WIDTH */
+/* CARD COLUMNS */
+.mtheme-card-columns-1 .card, .mtheme-card-columns-2 .card{
+	background-color: transparent;
+}
+.mtheme-card-columns-3{
+	background-color: #131636;
+	color: #FFFFFF;
+}
+/* END OF CARD COLUMNS */
+/* INPUT */
+.mtheme-field input{
+	height: auto;
+	background-color: rgba(18, 22, 53, 0.2);
+	color: #FFFFFF;
+	padding: 12px;
+	border: 0;
+	border-radius: 40px;
+}
+/* END OF INPUT */
+/* TEXTAREA */
+.mtheme-field textarea{
+	height: auto;
+	background-color: rgba(18, 22, 53, 0.2);
+	color: #FFFFFF;
+	padding: 12px;
+	border: 0;
+	border-radius: 40px;
+}
+/* END OF TEXTAREA */
+/* NAVIGATION */
+#mtheme-navbar{
+	background-color: transparent;
+	color: #9EEFE5;
+	font-family: 'Varela Round', sans-serif;
+}
+#mtheme-navbar.solid{
+	background: -webkit-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -moz-linear-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -ms-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -o-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: linear-gradient(to right, #131636, #151232, #0D0E18);
+	color: #9EEFE5;
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	transition-delay: 0.5s;
+}
+#mtheme-navbar .mtheme-nav-link{
+	color: #9EEFE5;
+}
+#mtheme-navbar .mtheme-nav-link:hover{
+	font-size: 110%;
+}
+#mtheme-navbar .navbar-brand{
+	color: #9EEFE5;
+}
+.navbar-toggler{
+	background: -webkit-linear-gradient(to right, #086795, #151232, #0D0E18);
+	background: -moz-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -ms-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -o-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: linear-gradient(to right, #131636, #151232, #0D0E18);
+	color: #9EEFE5;
+	font-size: 15px;
+	border-color: #9EEFE5;
+	border-width: 2px;
+}
+/* END OF NAVIGATION */
+/* DOCUMENTATION NAVIGATION */
+#mthemeDoc-navbar{
+	font-family: 'Varela Round', sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+#mthemeDoc-nav-pills{
+	background-color: #FFFFFF;
+	color: #131636;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	transition-delay: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+#mthemeDoc-nav-pills .mthemeDoc-nav-link{
+	background-color: #FFFFFF;
+	color: #131636;
+}
+#mthemeDoc-nav-pills .mthemeDoc-nav-link:hover{
+	font-size: 110%;
+}
+#mthemeDoc-nav-pills .mthemeDoc-nav-link.active,#mthemeDoc-nav-pills .show>.mthemeDoc-nav-link{
+	background-color: #131636;
+	color: #FFFFFF;
+	border-radius: 0;
+}
+/* END OF DOCUMENTATION NAVIGATION */
+/* BUTTON */
+.mtheme-button-1{
+	background-color: transparent;
+	color: #FFFFFF;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	padding-top: 8px;
+	padding-right: 40px;
+	padding-bottom: 8px;
+	padding-left: 40px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 0.3s;
+}
+.mtheme-button-1:hover{
+	background-color: #9EEFE5;
+	color: #131636;
+	border: 0;
+}
+.mtheme-button-2{
+	background-color: #131636;
+	color: #FFFFFF;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border: 0;
+	padding-top: 8px;
+	padding-right: 40px;
+	padding-bottom: 8px;
+	padding-left: 40px;
+	transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 0.3s;
+}
+.mtheme-button-2:hover{
+	background-color: #086D65;
+	color: #FFFFFF;
+}
+/* END OF BUTTON */
+/* MEDIA */
+@media (max-width: 575px){
+	#mtheme-body{
+		font-size: 15px;
+	}
+    .mtheme-padding{
+    	padding-top: 90px;
+    	padding-right: 30px;
+    	padding-bottom: 90px;
+    	padding-left: 30px;
+    }
+    .mtheme-margin{
+    	padding-top: 60px;
+    	padding-right: 0;
+    	padding-bottom: 60px;
+    	padding-left: 0;
+    }
+    #mtheme-body h1{
+		font-size: 70px;
+	}
+    #mtheme-body h2{
+		font-size: 60px;
+	}
+	#mtheme-body h3{
+		font-size: 45px;
+	}
+	#mtheme-body h4{
+		font-size: 24px;
+	}
+	#mtheme-body h5{
+		font-size: 19px;
+	}
+	#mtheme-body h6{
+		font-size: 17px;
+	}
+	.mtheme-services-1{
+		display: block;
+	}
+	#services .mtheme-image-1{
+		width: 100%;
+		height: 100%;
+	}
+	#locations .mtheme-image-2{
+		width: 100%;
+		height: 100%;
+	}
+	.mtheme-pricing-3{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.mtheme-pricing-4{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	#team .mtheme-image-3{
+		width: 100%;
+		height: 100%;
+	}
+	.mtheme-reviews-1{
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	.mtheme-reviews-2{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.mtheme-reviews-3{
+		padding-top: 60px;
+		padding-right: 40px;
+		padding-bottom: 60px;
+		padding-left: 40px;
+	}
+	.mtheme-reviews-4{
+		font-size: 16px;
+	}
+	.mtheme-contact-2{
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+    .mtheme-contact-3{
+    	padding-top: 40px;
+    	padding-right: 30px;
+    	padding-bottom: 40px;
+    	padding-left: 30px;
+    }
+    .mtheme-contact-5{
+		width: 95%;
+	}
+    .mtheme-footer-1{
+		margin-top: 90px;
+	}
+	.mtheme-button-1, .mtheme-button-2{
+		font-size: 16px;
+	}
+	#mtheme-navbar{
+		font-size: 16px;
+	}
+	#mtheme-navbar .navbar-brand{
+		font-size: 18px;
+	}
+	.mtheme-card-columns-1{
+		column-count: 1;
+	}
+	.mtheme-card-columns-2{
+		column-count: 1;
+	}
+	.mtheme-card-columns-3{
+		column-count: 1;
+	}
+	.mtheme-card-columns-3 .card{
+		width: 90%;
+	}
+	.form-control::placeholder{
+		font-size: 13px;
+	}
+	.mthemeD4-typed-1, .typed-cursor{
+		font-size: 60px;
+	}
+}
+@media (min-width: 576px){
+	#mtheme-body{
+		font-size: 15px;
+	}
+    .mtheme-padding{
+    	padding-top: 90px;
+    	padding-right: 40px;
+    	padding-bottom: 90px;
+    	padding-left: 40px;
+    }
+    .mtheme-margin{
+    	padding-top: 50px;
+    	padding-right: 0;
+    	padding-bottom: 50px;
+    	padding-left: 0;
+    }
+    #mtheme-body h1{
+		font-size: 90px;
+	}
+    #mtheme-body h2{
+		font-size: 75px;
+	}
+	#mtheme-body h3{
+		font-size: 60px;
+	}
+	#mtheme-body h4{
+		font-size: 30px;
+	}
+	#mtheme-body h5{
+		font-size: 23px;
+	}
+	#mtheme-body h6{
+		font-size: 21px;
+	}
+	.mtheme-services-1{
+		display: block;
+	}
+	#services .mtheme-image-1{
+		width: 100%;
+		height: 100%;
+	}
+	#locations .mtheme-image-2{
+		width: 100%;
+		height: 100%;
+	}
+	.mtheme-pricing-3{
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.mtheme-pricing-4{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#team .mtheme-image-3{
+		width: 100%;
+		height: 100%;
+	}
+	.mtheme-reviews-1{
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	.mtheme-reviews-2{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.mtheme-reviews-3{
+		padding-top: 70px;
+		padding-right: 40px;
+		padding-bottom: 70px;
+		padding-left: 40px;
+	}
+	.mtheme-reviews-4{
+		font-size: 16px;
+	}
+	.mtheme-contact-2{
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+    .mtheme-contact-3{
+    	padding-top: 50px;
+    	padding-right: 50px;
+    	padding-bottom: 50px;
+    	padding-left: 50px;
+    }
+    .mtheme-contact-5{
+		width: 90%;
+	}
+    .mtheme-footer-1{
+		margin-top: 90px;
+	}
+	.mtheme-button-1, .mtheme-button-2{
+		font-size: 16px;
+	}
+	#mtheme-navbar{
+		font-size: 15px;
+	}
+	#mtheme-navbar .navbar-brand{
+		font-size: 17px;
+	}
+	.mtheme-card-columns-1{
+		column-count: 1;
+	}
+	.mtheme-card-columns-2{
+		column-count: 1;
+	}
+	.mtheme-card-columns-3{
+		column-count: 1;
+	}
+	.mtheme-card-columns-3 .card{
+		width: 60%;
+	}
+	.form-control::placeholder{
+		font-size: 14px;
+	}
+	.mthemeD4-typed-1, .typed-cursor{
+		font-size: 75px;
+	}
+}
+@media (min-width: 768px){
+	#mtheme-body{
+		font-size: 15px;
+	}
+    .mtheme-padding{
+    	padding-top: 90px;
+    	padding-right: 30px;
+    	padding-bottom: 90px;
+    	padding-left: 30px;
+    }
+    .mtheme-margin{
+    	padding-top: 50px;
+    	padding-right: 0;
+    	padding-bottom: 50px;
+    	padding-left: 0;
+    }
+    #mtheme-body h1{
+		font-size: 78px;
+	}
+    #mtheme-body h2{
+		font-size: 68px;
+	}
+	#mtheme-body h3{
+		font-size: 50px;
+	}
+	#mtheme-body h4{
+		font-size: 24px;
+	}
+	#mtheme-body h5{
+		font-size: 20px;
+	}
+	#mtheme-body h6{
+		font-size: 18px;
+	}
+	.mtheme-services-1{
+		display: block;
+	}
+	#services .mtheme-image-1{
+		width: 70%;
+		height: 70%;
+	}
+	#locations .mtheme-image-2{
+		width: 70%;
+		height: 70%;
+	}
+	.mtheme-pricing-3{
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.mtheme-pricing-4{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#team .mtheme-image-3{
+		width: 90%;
+		height: 90%;
+	}
+	.mtheme-reviews-1{
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	.mtheme-reviews-2{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.mtheme-reviews-3{
+		padding-top: 80px;
+		padding-right: 40px;
+		padding-bottom: 80px;
+		padding-left: 40px;
+	}
+	.mtheme-reviews-4{
+		font-size: 16px;
+	}
+	.mtheme-contact-2{
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+    .mtheme-contact-3{
+    	padding-top: 20px;
+    	padding-right: 30px;
+    	padding-bottom: 20px;
+    	padding-left: 30px;
+    }
+    .mtheme-contact-5{
+		width: 65%;
+	}
+    .mtheme-footer-1{
+		margin-top: 90px;
+	}
+	.mtheme-button-1, .mtheme-button-2{
+		font-size: 15px;
+	}
+	#mtheme-navbar{
+		font-size: 15px;
+	}
+	#mtheme-navbar .navbar-brand{
+		font-size: 17px;
+	}
+	.mtheme-card-columns-1{
+		column-count: 1;
+	}
+	.mtheme-card-columns-2{
+		column-count: 1;
+	}
+	.mtheme-card-columns-3{
+		column-count: 1;
+	}
+	.mtheme-card-columns-3 .card{
+		width: 50%;
+	}
+	.form-control::placeholder{
+		font-size: 13px;
+	}
+	.mthemeD4-typed-1, .typed-cursor{
+		font-size: 68px;
+	}
+}
+@media (min-width: 992px){
+	#mtheme-body{
+		font-size: 15px;
+	}
+    .mtheme-padding{
+    	padding-top: 90px;
+    	padding-right: 40px;
+    	padding-bottom: 90px;
+    	padding-left: 40px;
+    }
+    .mtheme-margin{
+    	padding-top: 60px;
+    	padding-right: 0;
+    	padding-bottom: 60px;
+    	padding-left: 0;
+    }
+    #mtheme-body h1{
+		font-size: 85px;
+	}
+    #mtheme-body h2{
+		font-size: 70px;
+	}
+	#mtheme-body h3{
+		font-size: 55px;
+	}
+	#mtheme-body h4{
+		font-size: 28px;
+	}
+	#mtheme-body h5{
+		font-size: 21px;
+	}
+	#mtheme-body h6{
+		font-size: 19px;
+	}
+	.mtheme-services-1{
+		display: flex;
+		align-items: center;
+	}
+	#services .mtheme-image-1{
+		width: 100%;
+		height: 100%;
+	}
+	#locations .mtheme-image-2{
+		width: 100%;
+		height: 100%;
+	}
+	.mtheme-pricing-3{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.mtheme-pricing-4{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	#team .mtheme-image-3{
+		width: 100%;
+		height: 100%;
+	}
+	.mtheme-reviews-1{
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	.mtheme-reviews-2{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.mtheme-reviews-3{
+		padding-top: 50px;
+		padding-right: 30px;
+		padding-bottom: 50px;
+		padding-left: 30px;
+	}
+	.mtheme-reviews-4{
+		font-size: 16px;
+	}
+	.mtheme-contact-2{
+    	padding-left: 40px;
+    	padding-right: 40px;
+    }
+    .mtheme-contact-3{
+    	padding-top: 20px;
+    	padding-right: 40px;
+    	padding-bottom: 20px;
+    	padding-left: 40px;
+    }
+    .mtheme-contact-5{
+		width: 43%;
+	}
+    .mtheme-footer-1{
+		margin-top: 90px;
+	}
+	.mtheme-button-1, .mtheme-button-2{
+		font-size: 16px;
+	}
+	#mtheme-navbar{
+		font-size: 16px;
+	}
+	#mtheme-navbar .navbar-brand{
+		font-size: 18px;
+	}
+	.mtheme-card-columns-1{
+		column-count: 3;
+	}
+	.mtheme-card-columns-2{
+		column-count: 1;
+	}
+	.mtheme-card-columns-3{
+		column-count: 3;
+	}
+	.mtheme-card-columns-3 .card{
+		width: 100%;
+	}
+	.form-control::placeholder{
+		font-size: 13px;
+	}
+	.mthemeD4-typed-1, .typed-cursor{
+		font-size: 70px;
+	}
+}
+@media (min-width: 1200px){
+	#mtheme-body{
+		font-size: 15px;
+	}
+    .mtheme-padding{
+    	padding-top: 90px;
+    	padding-right: 50px;
+    	padding-bottom: 90px;
+    	padding-left: 50px;
+    }
+    .mtheme-margin{
+    	padding-top: 60px;
+    	padding-right: 0;
+    	padding-bottom: 60px;
+    	padding-left: 0;
+    }
+    #mtheme-body h1{
+		font-size: 90px;
+	}
+    #mtheme-body h2{
+		font-size: 75px;
+	}
+	#mtheme-body h3{
+		font-size: 60px;
+	}
+	#mtheme-body h4{
+		font-size: 36px;
+	}
+	#mtheme-body h5{
+		font-size: 23px;
+	}
+	#mtheme-body h6{
+		font-size: 21px;
+	}
+	.mtheme-services-1{
+		display: flex;
+		align-items: center;
+	}
+	#services .mtheme-image-1{
+		width: 100%;
+		height: 100%;
+	}
+	#locations .mtheme-image-2{
+		width: 100%;
+		height: 100%;
+	}
+	.mtheme-pricing-3{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.mtheme-pricing-4{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	#team .mtheme-image-3{
+		width: 100%;
+		height: 100%;
+	}
+	.mtheme-reviews-1{
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	.mtheme-reviews-2{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.mtheme-reviews-3{
+		padding-top: 70px;
+		padding-right: 40px;
+		padding-bottom: 70px;
+		padding-left: 40px;
+	}
+	.mtheme-reviews-4{
+		font-size: 16px;
+	}
+	.mtheme-contact-2{
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+    .mtheme-contact-3{
+    	padding-top: 20px;
+    	padding-right: 50px;
+    	padding-bottom: 20px;
+    	padding-left: 50px;
+    }
+    .mtheme-contact-5{
+		width: 40%;
+	}
+    .mtheme-footer-1{
+		margin-top: 90px;
+	}
+	.mtheme-button-1, .mtheme-button-2{
+		font-size: 16px;
+	}
+	#mtheme-navbar{
+		font-size: 16px;
+	}
+	#mtheme-navbar .navbar-brand{
+		font-size: 18px;
+	}
+	.mtheme-card-columns-1{
+		column-count: 3;
+	}
+	.mtheme-card-columns-2{
+		column-count: 1;
+	}
+	.mtheme-card-columns-3{
+		column-count: 3;
+	}
+	.mtheme-card-columns-3 .card{
+		width: 90%;
+	}
+	.form-control::placeholder{
+		font-size: 14px;
+	}
+	.mthemeD4-typed-1, .typed-cursor{
+		font-size: 75px;
+	}
+}
+/* END OF MEDIA */
+/* TYPED */
+.mthemeD4-typed-1{
+	color: #9EEFE5;
+	font-family: 'Fredoka One', cursive;
+}
+.typed-cursor{
+	color: #9EEFE5;
+}
+/* END OF TYPED */
+/* VIDEO */
+.mthemeD5-video-1{
+	padding: 30px;
+}
+/* END OF VIDEO */
+/* INDEX */
+.mthemeIndex-1{
+	border: 0;
+}
+.mthemeIndex-2{
+	position: relative;
+}
+.mthemeIndex-2:hover .mthemeIndex-3{
+    opacity: 1;
+}
+.mthemeIndex-3{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: 1s ease;
+	background: -webkit-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -moz-linear-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -ms-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: -o-linear-gradient(to right, #131636, #151232, #0D0E18);
+	background: linear-gradient(to right, #131636, #151232, #0D0E18);
+	border-radius: 0;
+}
+.mthemeIndex-4{
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+/* END OF INDEX */
+/* DOCUMENTATION */
+.mthemeDoc-color-1{
+    color: #086795;
+    font-weight: bold;
+}
+.mthemeDoc-color-2{
+    color: #086D65;
+    font-weight: bold;
+}
+.mthemeDoc-scroll{
+	position: relative;
+	height: 100vh;
+	overflow-y: scroll;
+}
+#mtheme-body pre{
+	font-family: 'Quicksand', sans-serif;
+	color: #131636;
+	font-weight: bolder;
+}
+/* END OF DOCUMENTATION */
+/* END OF CUSTOM CSS */
